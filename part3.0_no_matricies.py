@@ -12,7 +12,7 @@ biases = [2, 3, 0.5]
 # The output calculation
 layer_outputs = [] # Output of current layer
 
-# Zip together weights and the bias for each neuron and iterate over each pair, calculating the output
+# Zip together weights and biases for each neuron and iterate over each pair, calculating the output
 for neuron_weights, neuron_bias in zip(weights, biases):
     neuron_output = 0 # Output of a given neuron
     for n_input, weight in zip(inputs, neuron_weights): # Zip together inputs and the neuron weights

@@ -9,4 +9,5 @@ biases = [2, 3, 0.5]
 
 # Simplifying layer calculation by using numpy dot product
 layer_output = np.dot(weights, inputs) + biases
+
 print(layer_output)
