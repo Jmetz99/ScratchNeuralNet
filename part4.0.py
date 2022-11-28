@@ -20,4 +20,5 @@ biases2 = [-1, 2, 0.5]
 # Adding another layer taking as inputs the outputs from layer 1
 layer1_outputs = np.dot(inputs, np.array(weights1).T) + biases1
 layer2_outputs = np.dot(layer1_outputs, np.array(weights2).T) + biases2
+
 print(layer2_outputs)
